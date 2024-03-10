@@ -1,0 +1,110 @@
+.create-application-content {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+
+  gap: 26px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .application-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    .text-application {
+      color: #afaeae;
+      font-family: "Poppins-Medium";
+      font-size: 10px;
+      font-weight: 400;
+
+      margin-bottom: 20px;
+    }
+  }
+  .get-started-text-Overview {
+    color: #1d1f24;
+    font-family: "Poppins-Medium";
+    font-size: 22px;
+    font-weight: 500;
+
+    margin-bottom: 20px;
+  }
+
+  .create-app-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .Create-btn {
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+      color: #000000 !important;
+      margin-top: 20px;
+      width: 100px;
+      text-align: center;
+    }
+    .Create-btn2 {
+      display: flex;
+      text-align: center;
+      border-radius: 10px;
+      justify-content: center;
+      color: #000000 !important;
+      margin-top: 20px;
+      width: 100px;
+      text-align: center;
+      background-color: #7662ea;
+      color: #def8ee !important;
+    }
+  }
+}
+
+.application-top {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  display: flex;
+  .top-first-side {
+    display: flex;
+    color: aliceblue;
+
+    align-items: centerss;
+    gap: 20px;
+    .top-first-side-text {
+      color: rgb(0, 0, 0);
+      font-size: 38px;
+      font-weight: 600;
+      .span {
+        color: #4d4d4d;
+        font-weight: 100;
+        font-size: 45px;
+      }
+    }
+  }
+  .input-top-parent {
+    .join-button {
+      background-color: rgba(28, 28, 28, 0.05);
+
+      color: #141414 !important;
+      font-weight: 600;
+      border: none !important;
+      margin-top: 15px;
+    }
+  }
+}
+
+.ant-modal-wrap {
+  background: linear-gradient(
+    rgba(141, 127, 218, 0.2) 0%,
+    rgba(203, 221, 255, 0.5) 100%
+  );
+  background-color: #ffffff;
+}

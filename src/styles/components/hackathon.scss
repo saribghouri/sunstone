@@ -1,0 +1,106 @@
+.hackathons-content {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 48px;
+  width: calc(100% - 100px);
+  flex-direction: column;
+  display: flex;
+
+  gap: 26px;
+  .welcome-user {
+    margin-left: 30px;
+    color: #1d1f24;
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .get-started-text-content {
+    .hd {
+      font-family: "Poppins-Regular";
+      font-size: 22px;
+
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.22px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .get-started-text {
+      color: #7662ea !important;
+      font-size: 16px !important;
+    }
+  }
+  .get-started-image {
+    margin-top: 40px;
+  }
+
+  .bottom {
+    display: flex;
+    background-color: #1e0e62;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+
+    justify-content: space-between;
+
+    display: flex;
+    .bottom-first-side {
+      display: flex;
+      color: aliceblue;
+      margin: 20px;
+      gap: 20px;
+      display: flex;
+      align-items: center;
+
+      .bottom-first-side-text {
+        color: aliceblue;
+
+        font-size: 16px;
+      }
+      .bottom-first-side-img {
+        width: 72px;
+        height: 80px;
+        flex-shrink: 0;
+      }
+      .img-parent {
+        background-color: aliceblue;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
+    }
+
+    .bottom-second-side {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .input-button-parent {
+        display: flex;
+        gap: 10px;
+
+        .join-button {
+          background-color: #7662ea;
+          height: 40px;
+          color: #fff !important;
+          margin-right: 20px;
+          border: none !important;
+        }
+      }
+    }
+  }
+  @include sm {
+    .get-started-content {
+      .get-started-image {
+        display: none;
+      }
+    }
+  }
+}

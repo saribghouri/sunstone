@@ -1,0 +1,21 @@
+// Global
+
+@import "./global";
+@import "./fonts";
+@import "./mixins";
+
+// Components
+
+@import "./components/Sidebar.scss";
+@import "./components/Header.scss";
+@import "./components/Welcome.scss";
+@import "./components/Landingpage.scss";
+@import "./components/api-docs.scss";
+@import "./components/application.scss";
+@import "./components/hackathon.scss";
+@import "./components/blogs.scss";
+@import "./components/pricing.scss";
+@import "./components/profile.scss";
+@import "./components/create-application.scss";
+@import "./components/application-credentials.scss";
+@import "./components/application-delete.scss";

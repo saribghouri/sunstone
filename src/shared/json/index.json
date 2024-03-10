@@ -1,0 +1,39 @@
+[
+  {
+    "key": "1",
+    "name": "First Application",
+    "clientid": "fftt456765gjkkjhi83093985",
+    "clientsecret": "nCYG5imCRCiWHC6wBcOR4By6TAzi7gsm",
+    "analytics": {
+      "TotalRequests": "Total Requests",
+      "TotalUsers": "Total Requests",
+      "RecordedUserfeedback": "Total Requests",
+      "ModeratedRequests": "Total Requests"
+    }
+  },
+
+  {
+    "key": "2",
+    "name": "Second Application",
+    "clientid": "jk076590ygghgh324vd33",
+    "clientsecret": "nCYG5imCRCiWHC6wBcOR4By6TAzi7gsm",
+    "analytics": {
+      "TotalRequests": "Total Requests",
+      "TotalUsers": "Total Requests",
+      "RecordedUserfeedback": "Total Requests",
+      "ModeratedRequests": "Total Requests"
+    }
+  },
+  {
+    "key": "3",
+    "name": "Third Application",
+    "clientid": "jk076590ygghgh324vd33",
+    "clientsecret": "nCYG5imCRCiWHC6wBcOR4By6TAzi7gsm",
+    "analytics": {
+      "TotalRequests": "Total Requests",
+      "TotalUsers": "Total Requests",
+      "RecordedUserfeedback": "Total Requests",
+      "ModeratedRequests": "Total Requests"
+    }
+  }
+]

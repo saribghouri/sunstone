@@ -1,0 +1,9 @@
+export const baseUrl =
+  "http://3.136.205.116:8000/app_list?UserID=alexander@gmail.com";
+export const analytics =
+  "http://3.136.205.116:8000/app_analytics?AppID=mcf0ir7ctTNPSuzexQtUVZ4zLk7r4sAdcJp5529YIKKBXYPOLIg5xs6rrKCPCvIq";
+export const credential =
+  "http://3.136.205.116:8000/app_cred?AppID=mcf0ir7ctTNPSuzexQtUVZ4zLk7r4sAdcJp5529YIKKBXYPOLIg5xs6rrKCPCvIq";
+export const createApp =
+  "http://3.136.205.116:8000/app_create?UserID=alexander@gmail.com";
+export const deleteApp = "http://3.136.205.116:8000/app_delete";

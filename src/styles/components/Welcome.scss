@@ -1,0 +1,52 @@
+.welcome-content {
+  margin-top: 30px;
+  width: calc(100% - 100px);
+  .welcome-user {
+    margin-left: 30px;
+    color: #1d1f24;
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .get-started-content {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 48px;
+
+    display: flex;
+
+    gap: 26px;
+    .get-started-text-content {
+      .get-started-text {
+        color: #7662ea !important;
+        font-size: 16px !important;
+      }
+      h3 {
+        color: #1d1f24;
+        font-family: "Poppins-Medium";
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      .ant-typography-secondary {
+        color: #6b6e75;
+        font-family: "Poppins-Regular";
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .get-started-image {
+      margin-top: 40px;
+    }
+  }
+  @include sm {
+    .get-started-content {
+      .get-started-image {
+        display: none;
+      }
+    }
+  }
+}

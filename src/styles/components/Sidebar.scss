@@ -1,0 +1,119 @@
+.ant-layout-sider {
+  background: #eceff3 !important;
+  height: 100vh;
+  padding: 30px 15px;
+  .ant-layout-sider-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .demo-logo-vertical {
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    .ant-menu {
+      background: none;
+      border-inline-end: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .ant-menu-item-selected {
+        background-color: #fff !important;
+      }
+      .ant-menu-item {
+        display: flex;
+        align-items: center;
+        color: var(--dark-color-3, #6b6e75);
+
+        font-family: "Poppins-Regular";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.14px;
+        .ant-menu-title-content {
+          margin-inline-start: 14px;
+        }
+      }
+      .active {
+        background-color: #fff !important;
+        border-radius: 12px;
+        .ant-menu-item-icon {
+          filter: invert(0.5) sepia(1) saturate(30) hue-rotate(225deg);
+        }
+        .ant-menu-title-content {
+          color: #000;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+      .inactive {
+        background-color: transparent !important;
+      }
+    }
+    .pro-member-card {
+      border: 1px solid #7662ea;
+      border-radius: 20px;
+      background: #fff !important;
+      padding: 0 14px 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .pro-member-card-icon {
+        background: #7662ea;
+        border-radius: 12px;
+        padding: 8px;
+        margin-top: -25px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .pro-member-card-content {
+        margin: 18px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h5 {
+          font-size: 14px;
+          font-weight: 600;
+          color: #1d1f24;
+          text-align: center;
+          font-family: "Poppins-SemiBold";
+        }
+        span {
+          font-size: 12px;
+          color: #6b6e75;
+          text-align: center;
+          font-family: "Poppins-Regular";
+        }
+      }
+      .pro-member-card-button {
+        width: 100%;
+        button {
+          background-color: #7662ea;
+          border-radius: 8px;
+          width: 100%;
+          font-family: "Poppins-Medium";
+        }
+      }
+    }
+  }
+  .ant-layout-sider-zero-width-trigger {
+    background-color: #eceff3;
+    .anticon-bars {
+      svg {
+        color: #7662ea;
+      }
+    }
+  }
+}
+
+.ant-layout-sider-collapsed {
+  padding: 30px 0;
+}
